@@ -1,0 +1,61 @@
+h1 {
+	color: black;	
+	text-align: center;
+	font-weight: bolder;
+}
+
+body {
+	background-color: rgb(200, 200, 200);
+	text-align: center;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+img {
+	border-radius: 30%;
+	width: 400px;
+
+}
+.liste-reseaux {
+	list-style: none;
+	padding-left: 0;
+
+}
+
+.liste-reseaux li {
+	display: inline;
+
+}
+
+a {
+	color: darkblue;
+}
+
+.icones {
+	border-radius: 30%;
+	width: 30px;
+}
+
+a {
+	text-decoration: none;
+}
+
+div {
+	margin: 10px 130px;
+}
+
+@media (max-width: 720px) {
+	div {
+		margin: 10px 70px;
+	}
+}
+
+@media (max-width: 540px) {
+	div {
+		margin: 10px 20px;
+	}
+	img {
+		width: 250px;
+	}
+}
+
+
